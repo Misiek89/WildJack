@@ -10,6 +10,10 @@ import java.util.LinkedList;
 public class Main {
 
 	public static void main(String[] args) {
+		
+		 System.out.println("Separator [" + System.getProperty("file.separator") + "]");
+		 if(true) return;
+		
 		LinkedList<LogicCard> list = new LinkedList<LogicCard>();
 		/*
 		 * list.add(new LogicCard(VALUE._02, COLOR.Clubs)); list.add(new
@@ -67,6 +71,7 @@ public class Main {
 		 * LogicCard(VALUE.Ace, COLOR.Spades));
 		 */
 
+		 
 		for (LogicCard i : list) {
 			System.err.println(i.toString());
 		}
